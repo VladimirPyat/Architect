@@ -1,4 +1,4 @@
-package HW1;
+package HW1.ModelElements;
 
 public class Texture {
 

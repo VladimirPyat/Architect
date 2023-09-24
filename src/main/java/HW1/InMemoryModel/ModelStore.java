@@ -1,4 +1,6 @@
-package HW1;
+package HW1.InMemoryModel;
+
+import HW1.ModelElements.*;
 
 import java.awt.*;
 import java.util.ArrayList;
