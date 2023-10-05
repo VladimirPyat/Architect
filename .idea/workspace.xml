@@ -5,34 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ea9178-535f-4f8d-b8f8-d28b9da7b96d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/DIP/DieselEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/DIP/ElectricEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/DIP/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/DIP/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/ISP/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/ISP/Pyramid3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/ISP/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/ISP/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/ISP/iFigureArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/ISP/iFigureVolume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/LSP/QuadRangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/LSP/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/LSP/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/OCP/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/OCP/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/OCP/SpeedCalculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/OCP/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/SRP/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW3/SRP/EmployeeSalaryCalculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/iCustomerChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/iPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/iPurchaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/iSearchTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/iTicketsReserve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/GemGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/GemGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/GemReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/GemReward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/GoldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/GoldGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/GoldReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/GoldReward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/ItemFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/ItemFabric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/iGameItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW2/iGameItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
