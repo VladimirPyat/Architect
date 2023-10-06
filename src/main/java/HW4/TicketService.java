@@ -15,7 +15,7 @@ public class TicketService implements iSearchTickets, iCustomerCart, iTicketsRes
 
     public ArrayList<Ticket> searchTickets(SearchData searchData) {
         searchResult = ticketProvider.searchTickets(searchData);
-        return new ArrayList<>(searchResult);
+        return searchResult;
     }
 
     public void addToCart(int ticketIndex) {

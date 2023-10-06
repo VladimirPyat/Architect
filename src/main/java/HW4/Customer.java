@@ -41,7 +41,7 @@ public class Customer {
         }
     }
 
-    public int getCustomerID() {
+    public int getCustomerId() {
         return id;
     }
 }

@@ -40,7 +40,7 @@ public class Ticket {
         return random.nextInt(4500) + 500;
     }
 
-    public int getID() {
+    public int getId() {
         return id;
     }
 }

@@ -7,22 +7,21 @@ public class PurchaseService implements iPurchaseService, iPaymentService, iTick
     private PaymentService paymentService;
     private ArrayList<Transaction> transactions;
 
-    public PurchaseService(TicketService ticketService, PaymentService paymentService) {
+    public PurchaseService(TicketService ticketService) {
         this.ticketService = ticketService;
-        this.paymentService = paymentService;
+        this.paymentService = new PaymentService();
         this.transactions = new ArrayList<>();
     }
 
     public boolean orderTickets(Customer customer, ArrayList<Ticket> tickets) {
         boolean result = true;
         for (Ticket ticket : tickets) {
-            double ticketPrice = ticket.getPrice();
-            int paymentID = makePayment(customer.getCustomerID(), ticketPrice);
+            int paymentID = makePayment(customer.getCustomerId(), ticket.getPrice());
             result &= isPaymentCorrect(paymentID);
             if (result) {
-                ticketService.reserveTickets(ticket.getID());
+                ticketService.reserveTickets(ticket.getId());
             }
-            Transaction transaction = new Transaction(paymentID);
+            Transaction transaction = new Transaction(paymentID, ticket.getId());
             transactions.add(transaction);
         }
         return result;
@@ -30,8 +29,16 @@ public class PurchaseService implements iPurchaseService, iPaymentService, iTick
 
     public boolean returnTickets(Customer customer, ArrayList<Ticket> tickets) {
         boolean result = true;
+        for (Ticket ticket : tickets) {
+            int paymentId = cancelPayment(customer.getCustomerId(), ticket.getId());
+            result &= isPaymentCorrect(paymentId);
+            if (result) {
+                ticketService.unreserveTickets(ticket.getId());
+            }
+            Transaction transaction = new Transaction(paymentId, ticket.getId());
+            transactions.add(transaction);
+        }
         return result;
-
     }
 
     public boolean isPaymentCorrect(int paymentId) {

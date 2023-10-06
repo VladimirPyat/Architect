@@ -19,7 +19,7 @@ public class Transaction {
 
     }
 
-    public Transaction(int paymentId) {
+    public Transaction(int paymentId, int ticketId) {
         this(paymentId, 0, 0, null, 0.0);
     }
 
