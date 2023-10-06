@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ea9178-535f-4f8d-b8f8-d28b9da7b96d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/iCustomerChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/iPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/iPurchaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/iSearchTickets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/iTicketsReserve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/CustomerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/OperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/TicketData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/TicketProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/PurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/PurchaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/TicketsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/docs/HW4 (1).vpd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/docs/HW4 (1).vpd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/docs/HW4 diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/docs/HW4 diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/docs/readme.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/docs/readme.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/iCustomerChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/iCustomerCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/iPurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/iPurchaseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +69,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="HW4" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\_Programming\Arch\Architect\src\main\java\HW2" />
     </key>

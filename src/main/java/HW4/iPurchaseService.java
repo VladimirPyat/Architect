@@ -4,6 +4,6 @@ package HW4;
 import java.util.ArrayList;
 
 public interface iPurchaseService {
-    void orderTickets(int clientID, ArrayList<Ticket> tickets);
-    void returnTickets(int clientID, ArrayList<Ticket> tickets);
+    boolean orderTickets(Customer customer, ArrayList<Ticket> tickets);
+    boolean returnTickets(Customer customer, ArrayList<Ticket> tickets);
 }
