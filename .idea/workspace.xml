@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8ea9178-535f-4f8d-b8f8-d28b9da7b96d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/PurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/PurchaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/TicketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/docs/HW4 (1).vpd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/docs/HW4 (1).vpd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/docs/HW4 diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/docs/HW4 diagram.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
