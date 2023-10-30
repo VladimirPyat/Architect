@@ -1,0 +1,147 @@
+openapi: 3.0.0
+info:
+  title: Робот-пылесос
+  version: 0.0.1
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/SCARED_1/Robot/1.0
+paths:
+  /robots:
+    get:
+      summary: Получение списка роботов
+      tags:
+        - Robots
+      operationId: getAllRobots
+      responses:
+        "200":
+          description: Успешный ответ на запос
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Robots" 
+        default:
+          description: Всё остальное
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Error"  
+    post:
+      summary: Создание робота
+      tags:
+        - Robots
+      operationId: createRobot
+      requestBody:
+        content:
+          aplication/json:
+            schema:
+              $ref: "#/components/schemas/Robots"
+      responses:
+        "200":
+          description: Успешный ответ
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Robots"
+        "default":
+          description: Всё остальное
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /robots/{id}:
+    delete:
+      summary: Удаление робота
+      tags:
+        - Robots
+      operationId: deleteByID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Id робота
+          schema:
+            type: integer
+          example: 111
+      responses:
+        "200":
+          description: Удаление успешно
+          content:
+            aplication/json: {}
+        "default":
+          description: Всё остальное
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+components:
+  schemas:
+    Robot:
+      type: object
+      required:
+        - id
+        - model
+        - version
+        - status
+        - fabric_number
+        - resource
+        - ip_adress
+        - id_group
+      properties:
+        id:
+          type: integer
+          example: 1
+        model:
+          type: string
+          example: "AAA"
+        version:
+          type: string
+          example: "123.213.123d"
+        status:
+          type: string
+          example: "worked"
+        fabric_number:
+          type: integer
+          example: 123456
+        resource:
+          type: integer
+          example: 75
+        ip_adress:
+          type: string
+          example: "192.168.2.5"
+        id_group:
+          type: integer
+          example: 1
+    User:
+      type: object
+      required:
+        - id
+        - login
+        - hash
+      properties:
+        id:
+          type: integer
+          example: 1
+        login:
+          type: string
+          example: "kilkuruzzza"
+        hash:
+          type: integer
+          example: 123456
+    Users:
+      type: array
+      items:
+        $ref: "#/components/schemas/User"
+    Robots:
+      type: array
+      items:
+        $ref: "#/components/schemas/Robot"        
+    Error:
+      type: object
+      required:
+        - code
+        - items
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
